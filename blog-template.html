@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG_TITLE | Aditya Rangavajhala</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">Aditya</div>
+            <div class="nav-menu">
+                <a href="index.html#experience" class="nav-link">Experience</a>
+                <a href="index.html#projects" class="nav-link">Projects</a>
+                <a href="index.html#skills" class="nav-link">Skills</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <article class="blog-post">
+        <div class="container">
+            <div class="blog-post-header">
+                <a href="blog.html" class="back-to-blog">
+                    <i class="fas fa-arrow-left"></i> Back to Blog
+                </a>
+                <h1 class="blog-post-title">BLOG_TITLE</h1>
+                <div class="blog-post-meta">
+                    <span class="blog-post-date">DATE</span>
+                    <span class="blog-post-category">CATEGORY</span>
+                    <span class="blog-post-read-time">X min read</span>
+                </div>
+            </div>
+
+            <div class="blog-post-image">
+                <img src="IMAGE_URL" alt="ALT_TEXT">
+            </div>
+
+            <div class="blog-post-content">
+                <p class="blog-post-intro">
+                    <strong>INTRODUCTION</strong> - Your opening paragraph that hooks the reader and introduces the main topic.
+                </p>
+
+                <h2>First Section</h2>
+                <p>
+                    Your content here. Use paragraphs to break up ideas and make the content readable.
+                </p>
+
+                <h2>Second Section</h2>
+                <p>
+                    More content here. You can use lists, quotes, and other formatting to make your content engaging.
+                </p>
+                <ul>
+                    <li><strong>Point 1:</strong> Description of the first point</li>
+                    <li><strong>Point 2:</strong> Description of the second point</li>
+                    <li><strong>Point 3:</strong> Description of the third point</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>
+                    Wrap up your thoughts and provide a satisfying conclusion to your blog post.
+                </p>
+
+                <div class="blog-post-tags">
+                    <span class="tag">Tag1</span>
+                    <span class="tag">Tag2</span>
+                    <span class="tag">Tag3</span>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Related Posts -->
+    <section class="related-posts">
+        <div class="container">
+            <h2>Related Posts</h2>
+            <div class="related-posts-grid">
+                <a href="blog/related-post-1.html" class="related-post-card">
+                    <h3>Related Post Title 1</h3>
+                    <p>Brief description of the related post...</p>
+                </a>
+                <a href="blog/related-post-2.html" class="related-post-card">
+                    <h3>Related Post Title 2</h3>
+                    <p>Brief description of the related post...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Aditya Rangavajhala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu for mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
