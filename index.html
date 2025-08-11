@@ -11,7 +11,7 @@
     <!-- Header & Navigation -->
     <header class="header">
         <nav class="navbar container">
-            <div class="logo">Adi</div>
+            <div class="logo">Aditya</div>
             <div class="nav-menu">
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
@@ -30,10 +30,21 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
-            <h1 class="hero-title">Hi, I'm Aditya Rangavajhala</h1>
+            <div class="hero-profile">
+                <img src="pro_pic.jpg" alt="Aditya Rangavajhala" class="profile-pic">
+            </div>
+            <h1 class="hero-title">Hi, I'm Aditya</h1>
             <p class="hero-subtitle">Machine Learning Engineer</p>
             <p class="hero-location">California</p>
-            <a href="#contact" class="hero-btn">Let's Connect!</a>
+            <div class="hero-buttons">
+                <a href="#contact" class="hero-btn">Let's Connect!</a>
+                <a href="Aditya_Rangavajhala_Resume.pdf" target="_blank" class="hero-btn-secondary">Resume</a>
+            </div>
+            <div class="hero-links">
+                <a href="https://github.com/Aditya-85028" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/aditya-rangavajhala/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:adityarangavajhala@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            </div>
         </div>
     </section>
 
@@ -72,11 +83,11 @@
                     <div class="experience-location">New York, NY</div>
                     <div class="experience-desc">
                         <ul>
-                            <li>Accelerated contract reviews by 80% and improved access to policy information by building an agentic chatbot that lets internal teams query and validate data across 1,000+ provider health contracts.</li>
-                            <li>Built a scalable Retrieval-Augmented Generation (RAG) pipeline with custom document embeddings and principled evaluation mechanisms, improving performance by ~52%.</li>
-                            <li>Improved retrieval precision by 43% by developing an internal LLM evaluation framework that tested agent behavior, response quality, and reliability across diverse policy-based use cases.</li>
-                            <li>Developed an LLM application to standardize the language of appeals and grievances, improving consistency for downstream teams such as Quality Assurance.</li>
-                            <li>Reduced data engineering dependency by ~40% and enabled 120+ non-technical users to self-serve insights by building a framework that translated natural language into SQL over AWS Glue Catalog data.</li>
+                            <li>Built an LLM-powered chatbot that enables internal teams to quickly find and validate information across thousands of health contracts, cutting contract review time by 80%.</li>
+                            <li>Created a robust RAG system with custom document processing to improve retrieval and generation of relevant information from our knowledge base by 52%.</li>
+                            <li>Developed an evaluation framework to test and improve AI systems, ensuring accurate, reliable responses for healthcare policy questions.</li>
+                            <li>Deployed multiple Amazon SageMaker endpoints for Medicaid and other healthcare models, enabling batch and real-time inferences for data scientists and reducing manual reviews by 20%.</li>
+                            <li>Streamlined ML infrastructure in AWS and Spark, reducing data engineering dependency by 40% and empowering 120+ non-technical users to self-serve insights through natural language to SQL querying.</li>
                         </ul>
                     </div>
                 </div>
@@ -87,10 +98,22 @@
                     <div class="experience-location">Santa Clara, CA</div>
                     <div class="experience-desc">
                         <ul>
-                            <li>Improved time series demand prediction accuracy by 30% and reduced forecasting error by 25% by implementing multi-step training techniques on large manufacturing datasets.</li>
-                            <li>Enabled a 20% decrease in manual anomaly checks by executing supervised and unsupervised learning experiments in Azure ML Studio using clustering and classification models to detect operational patterns.</li>
-                            <li>Boosted supply chain forecasting precision by 15% by analyzing large-scale sensor and production datasets in collaboration with data scientists to uncover inefficiencies.</li>
-                            <li>Drove a 10% improvement in resource planning by presenting key findings to non-technical stakeholders, translating technical insights into actionable business decisions.</li>
+                            <li>Improved demand forecasting accuracy by 30% using advanced multi-step training techniques on large manufacturing datasets.</li>
+                            <li>Built ML models in Azure ML Studio and PySpark to detect operational anomalies, reducing manual checks by 20% and preventing potential issues before they occurred.</li>
+                            <li>Analyzed large-scale sensor and production data to identify supply chain inefficiencies, improving resource planning and operational efficiency.</li>
+                            <li>Presented technical findings to business stakeholders, translating complex data into actionable recommendations.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-role">Software Engineer Intern</div>
+                    <div class="experience-company">Memorial Sloan Kettering Cancer Center</div>
+                    <div class="experience-duration">June 2019 - August 2019</div>
+                    <div class="experience-location">Middletown, NJ</div>
+                    <div class="experience-desc">
+                        <ul>
+                            <li>Built automated scripts that sped up patient data retrieval, helping doctors access critical information faster during treatment.</li>
+                            <li>Collaborated with a senior developer to create backend endpoints that improved the performance of the OneMSK platform and streamlined access to essential resources.</li>
                         </ul>
                     </div>
                 </div>
@@ -108,14 +131,26 @@
                     <div class="project-tech">Python, React Native, FastAPI, AWS (Cognito, Lambda, S3, DynamoDB), Expo</div>
                     <div class="project-desc">
                         <ul>
-                            <li>Leading a cross-functional team of four to build a mobile-first platform where users post daily photo proof of habit completion, creating social accountability through a personalized activity feed.</li>
-                            <li>Designed and implemented a full-stack architecture optimized for scalability, low-latency interactions, and future ML integration to assess image validity.</li>
-                            <li>Developed backend systems to manage user authentication, media uploads, and habit metadata, ensuring robust data consistency and a seamless front-end experience across Android and iOS.</li>
+                            <li>Leading a team of four to build a habit-tracking app where users share daily photo proof of their progress, creating a social accountability system through personalized activity feeds.</li>
+                            <li>Designed a scalable full-stack architecture that handles user interactions smoothly while preparing for future machine learning integration to validate habit completion photos.</li>
+                            <li>Built the backend infrastructure for user authentication, media uploads, and habit tracking, ensuring a consistent experience across both Android and iOS platforms.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Rhythmia</div>
+                    <div class="project-tech">Python, NumPy, Pandas, Scikit-Learn, Matplotlib, Spotify API</div>
+                    <div class="project-desc">
+                        <ul>
+                            <li>Developed a program that uses the athlete's current heart rate to find songs with a matching BPM, creating a personalized workout experience.</li>
+                            <li>Integrated a K-Nearest Neighbors model to identify and queue similar tempo songs within 1 second of heart-rate input for seamless music transitions.</li>
+                            <li>Automated dynamic playlist updates to help athletes maintain a consistent pace and reduce fatigue during workouts.</li>
+                            <li>Applied research from Pearce et al. (2021) linking fast tempo music to the delayed onset of exercise-related mental fatigue.</li>
+                            <li>Won the Health & Wellness track at HackRU 2022, competing among 120+ participants.</li>
                         </ul>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="https://github.com/Aditya-85028/Rhythmia" class="project-link"><i class="fab fa-github"></i> Code</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -123,14 +158,13 @@
                     <div class="project-tech">Python, NumPy, Pandas, Scikit-Learn, Matplotlib</div>
                     <div class="project-desc">
                         <ul>
-                            <li>Designed a content-based recommendation engine to identify similar songs based on user listening history and audio feature similarity.</li>
-                            <li>Extracted and cleaned song metadata using the Spotify API, then engineered features such as tempo, energy, and valence for model input.</li>
-                            <li>Trained and evaluated a K-Nearest Neighbors (KNN) model to suggest new tracks, improving recommendation relevance through user similarity tuning.</li>
+                            <li>Created a recommendation engine that suggests songs based on user listening patterns and musical characteristics, helping users discover new music they'll enjoy.</li>
+                            <li>Worked with Spotify's API to extract and process song metadata, analyzing features like tempo, energy, and mood to understand what makes each track unique.</li>
+                            <li>Implemented a K-Nearest Neighbors model that learns from user preferences to provide personalized song recommendations, making music discovery more intuitive.</li>
                         </ul>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        <a href="https://github.com/Aditya-85028/Spotify-Song-Reccomender" class="project-link"><i class="fab fa-github"></i> Code</a>
                     </div>
                 </div>
             </div>
@@ -195,7 +229,26 @@
         </div>
     </section>
 
-
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Thoughts</h2>
+            <p class="section-subtitle" style="text-align: center; color: #666; margin-bottom: 2rem; font-size: 1.1rem;">
+                Exploring technology, film, literature, and everything in between
+            </p>
+            <div class="blog-list">
+                <div class="blog-card">
+                    <h3>Coming Soon</h3>
+                    <div class="blog-date">Stay tuned</div>
+                    <p>I'm working on some adding some content about tech, movies, and books that I've found cool. Check back soon for updates! </p>
+                    <a href="blog.html" class="read-more">View Blog →</a>
+                </div>
+            </div>
+            <div class="blog-section-footer">
+                <a href="blog.html" class="view-all-blog-btn">View All Posts</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -207,11 +260,6 @@
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
-            <div class="contact-links">
-                <a href="https://github.com/Aditya-8502" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/aditya-rangavajhala/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="mailto:adityarangavajhala@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-            </div>
         </div>
     </section>
 
